@@ -14,8 +14,6 @@ int main(){
         v.push_back(x % 2);
         x = x / 2;
     }
-
-
     for_each(v.rbegin(), v.rend(), [](int x){cout<<x;});
 
     return 0;
