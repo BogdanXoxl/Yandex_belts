@@ -23,6 +23,11 @@ int main(){
         return false;
     });
 
+//      sort(begin(v), end(v), [](const string& l, const string& r) {
+//         return lexicographical_compare(begin(l), end(l), begin(r), end(r),[](char cl, char cr)
+//                                                                            { return tolower(cl) < tolower(cr); });
+//      });
+
     for(auto& i: v)
         cout<<i<<" ";
 
