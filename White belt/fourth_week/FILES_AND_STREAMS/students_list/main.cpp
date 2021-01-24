@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-#include <iomanip>
 
 using namespace std;
 
@@ -34,21 +33,5 @@ int main(){
             }
         }
     }
-
-
     return 0;
 }
-
-//514786216.950133076.166474413
-//bad request
-//616788147.705587264.244800286
-//nyhFXEKa UrWtnwtYZXG
-//40757237.518708565.414337061
-//bad request
-
-//514786216.950133076.166474413
-//bad request
-//616788147.705587264.244800286
-//nyhFXEKa UrWtnwtYZXG
-//40757237.518708565.414337061
-//bad request
