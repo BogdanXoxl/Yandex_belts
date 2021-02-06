@@ -14,11 +14,11 @@ int main(){
         sum+=i;
     }
 
-    int avarge = sum/N;
+    int average = sum/N;
     vector<int> result;
 
     for(int i=0; i<v.size(); ++i)
-        if(v[i] > avarge)
+        if(v[i] > average)
             result.push_back(i);
 
     cout<<result.size()<<endl;
