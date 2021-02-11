@@ -5,7 +5,8 @@
 using namespace std;
 
 int main(){
-    int64_t N = 0, sum = 0;
+    int N = 0;
+    int64_t sum = 0;
     cin>>N;
 
     vector<int> v(N);
