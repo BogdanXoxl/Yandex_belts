@@ -4,5 +4,5 @@ project(Yandex_belts)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Yandex_belts "Yellow belt/first_week/FUNCTIONS_TEMPLATES/everything_in_a_square/main.cpp")
+add_executable(Yandex_belts "Yellow belt/first_week/FUNCTIONS_TEMPLATES/item_reference/main.cpp")
 
