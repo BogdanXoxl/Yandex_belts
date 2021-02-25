@@ -4,5 +4,5 @@ project(Yandex_belts)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Yandex_belts "Yellow belt/second_week/USING_UNIT_TESTS_TO_DEBUG PROGRAMS/main.cpp")
+add_executable(Yandex_belts "Yellow belt/second_week/DEVELOPMENT_OF_A_FRAMEWORK_FOR_UNIT_TESTS/tests_for_GetDistinctRealRootCount_function/main.cpp")
 
