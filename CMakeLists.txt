@@ -4,5 +4,5 @@ project(Yandex_belts)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Yandex_belts "Yellow belt/fourth_week/USING_ITERATORS_IN_ALGORITHMS_AND_CONTAINERS/merge_sort/part2.cpp")
+add_executable(Yandex_belts "Yellow belt/fourth_week/QUEUE_DECK_AND_SEARCH_ALGORITHMS/finding_the_nearest_element/main.cpp")
 
