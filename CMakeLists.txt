@@ -4,5 +4,5 @@ project(Yandex_belts)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Yandex_belts "Yellow belt/fifth_week/diy_inheritance/main.cpp")
+add_executable(Yandex_belts "Yellow belt/fifth_week/sending_notifications/main.cpp")
 
