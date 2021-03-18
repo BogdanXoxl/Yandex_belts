@@ -1,7 +1,3 @@
-//
-// Created by Богдан Хохлов on 09.01.2021.
-//
-
 #include "profile.h"
 
 LogDuration::~LogDuration(){

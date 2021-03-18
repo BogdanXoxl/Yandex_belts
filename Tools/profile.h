@@ -1,7 +1,3 @@
-//
-// Created by Богдан Хохлов on 09.01.2021.
-//
-
 #ifndef UNTITLED_PROFILE_H
 #define UNTITLED_PROFILE_H
 
