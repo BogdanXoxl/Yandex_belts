@@ -36,7 +36,7 @@ void Logger::Log(const string &message) {
 #define LOG(logger, message){ \
     logger.SetLine(__LINE__); \
     logger.SetFile(__FILE__); \
-    logger.Log(message);             \
+    logger.Log(message);      \
 }
 
 void TestLog() {

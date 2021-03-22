@@ -5,10 +5,11 @@ project(Yandex_belts)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Yandex_belts
-        "Red belt/first_week/MACROS/macro_LOG/main.cpp"
-        "Red belt/first_week/MACROS/macro_LOG/test_runner.cpp"
-        "Red belt/first_week/MACROS/macro_LOG/test_runner.h"
-        "Red belt/first_week/MACROS/macro_LOG/profile.cpp"
-        "Red belt/first_week/MACROS/macro_LOG/profile.h"
+        "Red belt/first_week/MACROS/comparator_generator/airline_ticket.h"
+        "Red belt/first_week/MACROS/comparator_generator/sort_by.cpp"
+        "Red belt/first_week/MACROS/comparator_generator/test_runner.cpp"
+        "Red belt/first_week/MACROS/comparator_generator/test_runner.h"
+        "Red belt/first_week/MACROS/comparator_generator/profile.h"
+        "Red belt/first_week/MACROS/comparator_generator/profile.cpp"
         )
 
