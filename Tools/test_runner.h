@@ -7,7 +7,7 @@
 #include <string>
 #include <sstream>
 
-#include "../Tools/profile.h"
+#include "../Red belt/first_week/CLASS_TEMPLATES/paginator/profile.h"
 
 
 template <typename First, typename Second>
@@ -118,18 +118,18 @@ void TestRunner::RunTest(TestFunction test_function, const std::string& test_fun
 
 #define ASSERT_EQUAL(x, y)              \
 {                                       \
-  std::ostringstream os;                \
-  os << #x << " != " << #y << ", "      \
+  std::ostringstream _os;                \
+  _os << #x << " != " << #y << ", "      \
     << __FILE__ << ":" << __LINE__;     \
-  AssertEqual(x, y, os.str());          \
+  AssertEqual(x, y, _os.str());          \
 }
 
 #define ASSERT(x)                       \
 {                                       \
-  std::ostringstream os;                \
-  os << #x << " is false, "             \
+  std::ostringstream _os;                \
+  _os << #x << " is false, "             \
     << __FILE__ << ":" << __LINE__;     \
-  Assert(x, os.str());                  \
+  Assert(x, _os.str());                  \
 }
 
 #define RUN_TEST(tr, func) \
