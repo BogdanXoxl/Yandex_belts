@@ -22,6 +22,6 @@ class Learner {
   }
 
   vector<string> KnownWords() {
-    return vector(dict.begin(), dict.end());
+    return {dict.begin(), dict.end()};
   }
 };
